@@ -56,21 +56,21 @@ console.log(prothom,ditiyo)
 
 
 //1. first system:
-const numbers = [1, 2, 3 ];
-let num1 = numbers[0];
-let num2 = numbers[1];
-let num3 = numbers[2];
-console.log(num1, num2, num3);
+// const numbers = [1, 2, 3 ];
+// let num1 = numbers[0];
+// let num2 = numbers[1];
+// let num3 = numbers[2];
+// console.log(num1, num2, num3);
 
 
 
 //second system :
-const numbs = [1, 2, 3];
-let [num1, num2, num3]= numbs
+// const numbs = [1, 2, 3];
+// let [num1, num2, num3]= numbs
 
-//third system:
-let [num1, num2, num3] = [1, 2, 3];
-console.log(num1);
+// //third system:
+// let [num1, num2, num3] = [1, 2, 3];
+// console.log(num1);
 
 
 //fourth system:

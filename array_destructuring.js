@@ -26,3 +26,28 @@ const {name, age:boyosh} =  actor;
 
 /* here is the actual thimg that will work */
 console.log(name , boyosh);
+
+
+
+/***
+ * array destructuring : 
+*/
+
+const numbers = [45, 99];
+const [first, second]= numbers;
+const [x, y] = [12, 66];
+
+
+
+
+/* advanced use case like swap  */
+
+
+//
+function doubleThem (a, b){
+      //01 . in here as i see that there is returning the value in array 
+      return [a*2, b*2];
+}
+//02 . just because we  return the value in a array so that when we destructuring the thing here we have to destructure it with the array thats the concept :
+const [prothom, ditiyo] =  doubleThem(6, 9);
+console.log(prothom,ditiyo)

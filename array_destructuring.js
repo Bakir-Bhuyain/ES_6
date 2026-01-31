@@ -51,3 +51,29 @@ function doubleThem (a, b){
 //02 . just because we  return the value in a array so that when we destructuring the thing here we have to destructure it with the array thats the concept :
 const [prothom, ditiyo] =  doubleThem(6, 9);
 console.log(prothom,ditiyo)
+
+/* some of the advanced use case of array destructuring */
+
+
+//1. first system:
+const numbers = [1, 2, 3 ];
+let num1 = numbers[0];
+let num2 = numbers[1];
+let num3 = numbers[2];
+console.log(num1, num2, num3);
+
+
+
+//second system :
+const numbs = [1, 2, 3];
+let [num1, num2, num3]= numbs
+
+//third system:
+let [num1, num2, num3] = [1, 2, 3];
+console.log(num1);
+
+
+//fourth system:
+let num1 , num2 ,  num3;
+
+[num1 , num2, num3] = [1, 2, 3];

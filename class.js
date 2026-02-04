@@ -9,3 +9,10 @@ class Player{
 }
 const player1 = new Player('Brendon', 33);
 console.log(player1);
+
+
+class Pet{
+      constructor(name,age,){
+            
+      }
+}
